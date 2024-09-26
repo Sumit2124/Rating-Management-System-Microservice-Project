@@ -1,0 +1,15 @@
+server:
+  port: 8086
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sumit2124/MicroServiceConfiguration
+          clone-on-start: true
+  application:
+    name: CONFIG-SERVER
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8084/eureka"
