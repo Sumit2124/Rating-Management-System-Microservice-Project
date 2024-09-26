@@ -21,3 +21,5 @@ This microservice retrieves configurations from GitHub for the registered micros
 
 API Gateway
 The API Gateway serves as a single entry point for all microservices. It allows secure access to the microservices, implementing proper authentication and authorization using the OKTA dependency.
+
+
